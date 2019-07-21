@@ -1,0 +1,9 @@
+1. Copy source vao folder ...\xampp\htdocs
+2. Tao database voi ten YourDatabaseName
+3. Vao thu muc ...\xampp\htdocs\ten project\config\db.php edit nhu sau:
+
+   'dsn' => 'mysql:host=localhost;dbname=YourDatabaseName', //ten database dat o 2
+   'username' => 'root', 
+   'password' => '', // password neu co
+
+4. Vao Chrome: ...your_path/web/index.php
